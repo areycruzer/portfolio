@@ -23,68 +23,70 @@ const ProjectCard = ({ project }) => {
             className={styles.image}
             loading="lazy"
           />
-          <div className={styles.overlay}>
-            <div className={styles.tags}>
-              {project.tags.map((tag, index) => (
-                <span key={index} className={styles.tag}>{tag}</span>
-              ))}
-            </div>
-          </div>
+          <div className={styles.overlay}></div>
         </div>
       )}
       <div className={styles.content}>
         <div className={styles.header}>
           <h3 className={styles.title}>{project.name}</h3>
-          <div className={styles.linkContainer}>
-            {project.github && (
-              <motion.a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.iconLink}
-                aria-label="GitHub repository"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <GithubIcon className={styles.icon} />
-              </motion.a>
-            )}
-            {project.demo && (
-              <motion.a
-                href={project.demo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.iconLink}
-                aria-label="Live demo"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <LinkIcon className={styles.icon} />
-              </motion.a>
-            )}
-          </div>
         </div>
         <p className={styles.description}>{project.description}</p>
+        
+        <div className={styles.linkButtons}>
+          {project.code && (
+            <motion.a
+              href={project.code}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.linkButton}
+              aria-label="Source Code"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <GithubIcon className={styles.buttonIcon} />
+              <span>Code</span>
+            </motion.a>
+          )}
+          {project.demo && (
+            <motion.a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.linkButton}
+              aria-label="Live Demo"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <LinkIcon className={styles.buttonIcon} />
+              <span>Demo</span>
+            </motion.a>
+          )}
+          {project.demos && (
+            <motion.a
+              href={project.demos}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.linkButton}
+              aria-label="Demo Video"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <LinkIcon className={styles.buttonIcon} />
+              <span>Preview</span>
+            </motion.a>
+          )}
+        </div>
+        
         <div className={styles.technologies}>
           <h4 className={styles.techTitle}>Technologies Used:</h4>
           <div className={styles.techList}>
             {project.technologies && project.technologies.map((tech, index) => (
               <span key={index} className={styles.techItem}>{tech}</span>
             ))}
+            {!project.technologies && project.tags && project.tags.map((tag, index) => (
+              <span key={index} className={styles.techItem}>{tag}</span>
+            ))}
           </div>
-        </div>
-        <div className={styles.footer}>
-          <motion.button
-            className={styles.viewProjectBtn}
-            whileHover={{ 
-              scale: 1.02,
-              boxShadow: '0 5px 15px rgba(155, 89, 182, 0.4)'
-            }}
-            whileTap={{ scale: 0.98 }}
-            onClick={() => window.open(project.demo || project.github || '#', '_blank')}
-          >
-            View Project Details
-          </motion.button>
         </div>
       </div>
     </motion.div>

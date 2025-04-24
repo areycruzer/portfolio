@@ -29,7 +29,7 @@
   position: relative;
   display: inline-block;
   font-weight: 600;
-  background: linear-gradient(90deg, #e0e0e0, #9b59b6);
+  background: linear-gradient(90deg, #e0e0e0, #FFD700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -42,7 +42,7 @@
   left: 0;
   width: 80px;
   height: 4px;
-  background: linear-gradient(90deg, #9b59b6, #b19cd9);
+  background: linear-gradient(90deg, #FFD700, #FFA500);
   border-radius: 2px;
 }
 

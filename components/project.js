@@ -3,55 +3,55 @@ export const getProjects = () => {
 {
     "id": 1,
     "name": "Route Optimi",
-    "image": "C:/Users/Arpit/Downloads/WhatsApp Image 2025-04-06 at 02.26.06.jpeg",
-    "description": " An e-commerce website which uses tailwind for styling and redux for the state management with FireBaseLogin ",
-    "tags": ["redux", "firebase", "tailwindcss","reactjs"],
-    "code": "https://github.com/LSUDOKO/ShoeSale",
-    "demo": "https://shoe-sale.vercel.app",
-    "demos":"https://x.com/ARPITSI03544750/status/1769718417060167938"
+    "image": "https://i.imgur.com/ljt05yL.jpeg",
+    "description": " An AI-powered logistics optimization tool that determines the most efficient cross-border shipping routes using multiple transport modes (air, sea, land, or hybrid combinations). It optimizes key constraints like cost, transit time, regulatory feasibility, and carbon footprint.",
+    "tags": ["Next.js", "Python", "Prisma ","Leaflet.js"," Google Gemini"],
+    "code": "https://github.com/Aaditya1273/GlobalRoute-Navigator.git",
+    "demo": "https://global-route-navigator.vercel.app/",
+    "demos":"https://x.com/ARPITSI03544750/status/1908742487637733377"
   },
   {
       "id":2,
-      "name":"2d Metaverse",
-      "image":"https://miro.medium.com/v2/resize:fit:1400/0*EkBM0pKrO7FPwV2Z",
-      "description":"A 2D metaverse platform that leverages WebSockets for real-time communication and multiplayer functionality with WEBRTC. The platform features a custom physics engine for interactive gameplay and a Node.js backend for server-side logic. Built with TypeScript, React, and Socket.IO, it enables users to create and join virtual rooms, interact with other players, and enjoy a seamless multiplayer experience.",
-      "tags":["typescript","react","socket.io","nodejs","webrtc","cloudfare","gcp"],
-      "code":"https://github.com/LSUDOKO/2d_metaverse",
-      "demo":"https://2dmetaverse.pages.dev",
-      "demos":"https://x.com/ARPITSI03544750/status/1866139270542410019"
+      "name":"Fake News Detector",
+      "image":"https://imgs.search.brave.com/nu8_c5j_CWu3bC3qkEuS-aDt8VnYmzlFdOtaL7tUkm0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9m/YWtlLW5ld3MtY29u/Y2VwdF8yMy0yMTQ4/ODM2OTg2LmpwZz9z/ZW10PWFpc19oeWJy/aWQmdz03NDA",
+      "description":"This project aims to identify and classify news articles as real or fake using Natural Language Processing (NLP) and Machine Learning techniques. With the rise of misinformation online, this tool helps in promoting fact-based content and digital awareness",
+      "tags":["python","pandas","numpy","Scikit-learn","NLP"],
+      "code":"https://github.com/LSUDOKO/Fake-News-Detector",
+      "demo":"https://x.com/ARPITSI03544750/status/1915304711684604123",
+      "demos":"https://x.com/ARPITSI03544750/status/1915304711684604123"
   },
   {
     "id": 3,
-    "name": "Creedo (Social App)",
-    "image": "https://preview.redd.it/new-reddit-home-page-v0-jcvzb2gceetc1.png?width=1920&format=png&auto=webp&s=84db64bf498d96759b6fb8bbeb69b6091dc97c79",
-    "description": "Node Js and Socket.Io for backend and real-timenotification. Kinde for session and authentication. Use of SSR and CSR in Next js. React Dropzone for drag and drop.MongoDB for the database. Cloudinary for cloud storage ",
-    "tags": ["express", "sockets", "javascript","shadcn","mongodb"],
-    "demo": "https://creedo.vercel.app",
-    "code": "https://github.com/LSUDOKO/Creedo",
-    "demos":"https://x.com/ARPITSI03544750/status/1779383162684227895"
+    "name": "SpeakPro AI",
+    "image": "https://i.imgur.com/Jh3fmnA.png",
+    "description": "SpeakPro AI is your personal AI communication coach, designed to boost your conversational skills with real-time analysis, actionable feedback, and immersive practice environments. Whether you're preparing for an interview, improving social skills, or mastering professional conversations, SpeakPro AI is here to help!",
+    "tags": ["react.js", "node.js", "python","streamlit","Groq LLM","Eleven Labs"],
+    "demo": "https://x.com/ARPITSI03544750/status/1906242273207038378",
+    "code": "https://github.com/ZINKUNO/electrothon-ch",
+    "demos":"https://x.com/ARPITSI03544750/status/1906242273207038378"
   },
   {
     "id": 4,
-    "name": "Ai ArchiText",
-    "image": "https://pbs.twimg.com/media/GaL_accbUAETWT0?format=jpg&name=medium",
-    "description": "A online website generator which uses chatgpt API and Dalle to make deployed websites. ",
-    "tags": ["ChatGpt", "css", "javascript","nextjs","dalle"],
-    "code": "https://github.com/LSUDOKO/AiArchiText",
-    "demo": "https://architext.vercel.app",
-    "demos":"https://x.com/ARPITSI03544750/status/1791386786289098785"
+    "name": "Weather App",
+    "image": "https://imgs.search.brave.com/rDo2nDQjeLWZuYvO8jEa8qKyog69P-9dECiMfflpmXo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2JlLzQz/Lzc4L2JlNDM3ODEy/MmNhZDZmNjcxN2Fk/OGIyMjc2ZTAyZTUw/LmpwZw",
+    "description": "This is a responsive Weather Website created using HTML, CSS, and JavaScript. It fetches real-time weather data from the OpenWeatherMap API and displays it to the user in a clean and user-friendly interface.",
+    "tags": ["Html", "css", "javascript","openweathermap"],
+    "code": "https://github.com/LSUDOKO/Api-Weather-App",
+    "demo": "api-weather-app-ebon.vercel.app",
+    "demos":"https://x.com/ARPITSI03544750/status/1915120231946584575"
 
   },
    {
     "id": 5,
-    "name": "Repl",
-    "image": "https://pbs.twimg.com/media/GaL_xN7bUAMNT9V?format=jpg&name=medium",
-    "description": "REPL is an innovative online development environment similar to Replit, offering secure user authentication via KindAuth and a Next.js frontend. It features Docker-based isolated project environments, real-time WebSocket connections, and an integrated code editor with node-pty pseudo-terminals for seamless development. Built with TypeScript, Node.js, and MongoDB, it enables users to host Express servers or React apps in scalable, isolated environments",
-    "tags": ["next", "docker", "typescript","aws"],
-    "code": "https://github.com/LSUDOKO/Repl",
-    "demo": "https://repl.vercel.app",
-    "demos":"https://x.com/ARPITSI03544750/status/1812522400556126696"
+    "name": "AI-Medical-ChatBot",
+    "image": "https://sdmntprwestus.oaiusercontent.com/files/00000000-9b1c-6230-b0fe-d4666d841b89/raw?se=2025-04-24T08%3A46%3A15Z&sp=r&sv=2024-08-04&sr=b&scid=11af4935-bddd-509f-b30b-23fdd056f2c3&skoid=acefdf70-07fd-4bd5-a167-a4a9b137d163&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-24T05%3A44%3A41Z&ske=2025-04-25T05%3A44%3A41Z&sks=b&skv=2024-08-04&sig=%2BkLnMT6XYuw1vHn1rWcVNAAZsa7pRGaBALIpjkM1mz4%3D",
+    "description": "The AI Medical Chatbot is designed to:Answer medical queries based on a vast database of medical knowledge.Analyze symptoms and provide preliminary advice using AI-driven diagnosis.Support voice interactions, making it accessible to visually impaired users.Process images to identify common skin conditions and medical documents.Connect with healthcare professionals if advanced medical intervention is needed.",
+    "tags": ["python", "docker", "liama-3-vision","openai-whisper","gradio","elevenlabs"],
+    "code": "https://github.com/LSUDOKO/AI-Medical-ChatBot",
+    "demo": "https://youtu.be/47n8teyBTp8?si=Zl0N-v_5m1WUYvpN",
+    "demos":"https://x.com/ARPITSI03544750/status/1915310526282039408"
   },
-  {
+  /*{
     "id": 6,
     "name": "File Manager (Routines)",
     "image": "https://img.freepik.com/premium-vector/upload-files-form-with-submit-button-dark-ui-design_116137-2354.jpg",
@@ -80,5 +80,5 @@ export const getProjects = () => {
     "code": "https://github.com/LSUDOKO/Tasks-App",
     "demo": "https://x.com/ARPITSI03544750/status/1802397998522998793",
     "demos":"https://x.com/ARPITSI03544750/status/1802397998522998793"
-  }
+  }*/
 ]}

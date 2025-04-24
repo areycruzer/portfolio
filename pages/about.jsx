@@ -148,9 +148,9 @@ export default function AboutMe() {
                 </div>
                 
                 <div className={styles.buttonContainer}>
-                  <a href="/resume" className={styles.button}>
+                  <a href="/arpit.pdf" className={styles.button}>
                     <span className={styles.buttonIcon}>📄</span>
-                    Experience
+                    Resume
                   </a>
                   <a href="mailto:adoranto737@gmail.com" className={styles.button}>
                     <span className={styles.buttonIcon}>✉️</span>
