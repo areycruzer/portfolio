@@ -1,12 +1,8 @@
 # Portfolio Website - VS Code Themed
-
-![Portfolio Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbncwdGd4MXIzM2JjcXo1Z2Zndm9oMGp0YnpjYWNzN2N1ZnA1cmEwcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEjI6SIIHBdRxXI40/giphy.gif)
-
 This is my personal portfolio website built with Next.js and styled to look like VS Code. It showcases my projects, skills, and experience in a unique and interactive way.
-
 ## 🚀 Live Demo
 
-Check out the live site: [Your Portfolio URL](https://your-portfolio-url.vercel.app)
+Check out the live site: [Link](https://portfolio-nu-jade-59.vercel.app/)
 
 ## ✨ Features
 
@@ -18,8 +14,6 @@ Check out the live site: [Your Portfolio URL](https://your-portfolio-url.vercel.
 - **Article Section** - Sharing my thoughts and experiences
 - **Contact Form** - Easy way to reach out to me
 
-![Features Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazRibGppNjQwYXZrMXkyMm13ZzNxb3ZrdG5wbm1yOW41MWFxd3plcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26n7b7PjSOZJwVCmY/giphy.gif)
-
 ## About Me
 
 A Normal Life is Boring.
@@ -27,14 +21,10 @@ A Normal Life is Boring.
 ### Mobile & Web Developer
 
 #### Personal Details
-- **Name:** Izuka Chigozie Emmanuel Brain
-- **Nationality:** Nigeria 🇳🇬
-- **College Degree:** Industrial Microbiology
+- **Name:** Arpit singh
+- **Nationality:** India
+- **College Degree:** B Tech in Computer science
 
-#### Aliases & Traits
-- **Aliases:** Gozkybrain Izuka, Sarcastic Geek
-- **Zodiac:** Leo
-- **Availability:** Freelance, Remote, & Hybrid
 
 ![Coding](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGEyYW5hYzRiajVoZ3psaHVmNHhwdDlnM3hjdmVzOXJtajcyYzd0NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13HgwGsXF0aiGY/giphy.gif)
 
@@ -48,9 +38,6 @@ A Normal Life is Boring.
 ## 📱 Responsive Design
 
 The portfolio is fully responsive and works seamlessly on all devices - from mobile phones to large desktop screens.
-
-![Responsive Design](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXdidXFjcDZhc2hxOXFtdngxazV3dWg4eGh5cTQwcXVmaGtxdnd6YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPeQ5Uz1smtGD4s/giphy.gif)
-
 ## ⚙️ Installation & Setup
 
 1. Clone this repository
