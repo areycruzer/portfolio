@@ -1,0 +1,149 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 0;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info button {
+  margin-top: 0.75rem;
+  border: none;
+  background: var(--button-bg);
+  color: var(--button-text);
+  padding: 0.15rem 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.info button:focus {
+  outline: 1px solid var(--accent-color);
+}
+
+.themeContainer {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.searchContainer {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: 1px solid var(--accent-color);
+  background-color: var(--explorer-bg);
+  color: var(--text-color);
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.searchInput:focus {
+  box-shadow: 0 0 0 2px var(--accent-color);
+}
+
+.themesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.themeCard {
+  background-color: var(--explorer-bg);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.themeCard:hover {
+  background-color: var(--explorer-hover-bg);
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.activeTheme {
+  border-color: var(--accent-color);
+  background-color: var(--explorer-hover-bg);
+}
+
+.themePreview {
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: var(--main-bg);
+  padding: 0.5rem;
+}
+
+.themeIcon {
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.themeCard:hover .themeIcon {
+  transform: scale(1.05);
+}
+
+.themeInfo {
+  margin-top: 1rem;
+}
+
+.themeInfo h3 {
+  color: var(--text-color);
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.themeInfo p {
+  color: var(--text-color);
+  opacity: 0.7;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .themesGrid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .themeCard {
+    padding: 1rem;
+  }
+  
+  .searchInput {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .themesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .themeContainer {
+    padding: 1rem;
+  }
+}

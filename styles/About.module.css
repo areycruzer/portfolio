@@ -1,0 +1,653 @@
+/* styles/About.module.css */
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.loaded {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profileHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mainTitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #dedede;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.highlight {
+    background: linear-gradient(to right, #ff8c00, #ffb347);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.htmlTag {
+    font-family: monospace;
+    font-size: 0.6em;
+    font-weight: normal;
+    color: #666;
+    opacity: 0.7;
+    margin: 0 10px;
+}
+
+.underline {
+    height: 4px;
+    width: 70px;
+    background: linear-gradient(to right, #ff8c00, #ffb347);
+    margin: 0 auto;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+/* Tabs styling */
+.tabsContainer {
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #333;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #666 #1a1a1a;
+}
+
+.tabsContainer::-webkit-scrollbar {
+    height: 5px;
+}
+
+.tabsContainer::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+.tabsContainer::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 20px;
+}
+
+.tab {
+    padding: 12px 20px;
+    cursor: pointer;
+    color: #ccc;
+    border: none;
+    border-bottom: 3px solid transparent;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+.tab:hover {
+    background-color: rgba(255, 140, 0, 0.1);
+    color: #fff;
+}
+
+.activeTab {
+    border-bottom: 3px solid #ff8c00;
+    color: #fff;
+    background-color: rgba(255, 140, 0, 0.15);
+}
+
+.tabIcon {
+    font-size: 18px;
+}
+
+.tabContent {
+    display: none;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.activeContent {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Code-like elements */
+.codeComment {
+    font-family: 'Consolas', monospace;
+    color: #6A9955;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.codeKeyword {
+    color: #569CD6;
+    font-family: 'Consolas', monospace;
+    font-weight: bold;
+}
+
+.codeClass {
+    color: #4EC9B0;
+    font-family: 'Consolas', monospace;
+}
+
+.codeBracket {
+    font-family: 'Consolas', monospace;
+    font-size: 24px;
+    color: #dedede;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.myImage {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ff8c00;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+.myImage:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 140, 0, 0.6);
+}
+
+.imageGlow {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    z-index: -1;
+    background: radial-gradient(circle, rgba(255, 140, 0, 0.3) 0%, rgba(29, 31, 37, 0) 70%);
+}
+
+.status {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1F2429;
+    border: 1px solid #ff8c00;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: #dedede;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.statusDot {
+    width: 8px;
+    height: 8px;
+    background-color: #27c93f;
+    border-radius: 50%;
+    display: inline-block;
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.personalInfoCard {
+    background-color: #1F2429;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 140, 0, 0.2);
+}
+
+.personalInfoCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.35);
+    border-color: rgba(255, 140, 0, 0.5);
+}
+
+.bioContainer {
+    display: flex;
+    align-items: stretch;
+}
+
+.bioCard {
+    background-color: #1F2429;
+    border-radius: 12px;
+    padding: 25px;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 140, 0, 0.2);
+    position: relative;
+}
+
+.bioCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.35);
+    border-color: rgba(255, 140, 0, 0.5);
+}
+
+.cardTitle {
+    font-family: 'Consolas', monospace;
+    font-size: 24px;
+    color: #dedede;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 140, 0, 0.5);
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-family: 'Consolas', monospace;
+    transition: transform 0.2s ease;
+    border-left: 3px solid transparent;
+    padding-left: 5px;
+}
+
+.listItem:hover {
+    transform: translateX(5px);
+    border-left-color: #ff8c00;
+    background-color: rgba(255, 140, 0, 0.1);
+    border-radius: 0 8px 8px 0;
+}
+
+.icon {
+    margin-right: 10px;
+    color: #ff8c00;
+}
+
+.strong {
+    font-weight: 600;
+    color: #ff8c00;
+}
+
+.value {
+    color: #dedede;
+    font-family: 'Consolas', monospace;
+}
+
+.paragraph {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #dedede;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    position: relative;
+}
+
+.paragraph::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: rgba(255, 140, 0, 0.3);
+}
+
+.tagContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.tag {
+    background-color: rgba(255, 140, 0, 0.2);
+    color: #ff8c00;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.tag:hover {
+    background-color: rgba(255, 140, 0, 0.4);
+    transform: translateY(-3px);
+    box-shadow: 0 3px 10px rgba(255, 140, 0, 0.3);
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.button {
+    background: linear-gradient(to right, #ff8c00, #ffb347);
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 140, 0, 0.4);
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(255, 140, 0, 0.5);
+}
+
+.buttonIcon {
+    font-size: 18px;
+}
+
+/* Skills section styling */
+.skillsSection {
+    margin-top: 40px;
+    background-color: #1F2429;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 140, 0, 0.2);
+}
+
+.skillsSection:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.35);
+    border-color: rgba(255, 140, 0, 0.5);
+}
+
+.sectionTitle {
+    font-family: 'Consolas', monospace;
+    font-size: 28px;
+    color: #dedede;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.5s ease;
+}
+
+.visibleSkill {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.skillHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.skillName {
+    font-family: 'Consolas', monospace;
+    font-size: 16px;
+    color: #dedede;
+}
+
+.skillPercent {
+    color: #ff8c00;
+    font-weight: 600;
+}
+
+.progressBar {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 8px;
+    width: 100%;
+}
+
+.progress {
+    background: linear-gradient(to right, #ff8c00, #ffb347);
+    height: 100%;
+    width: 0;
+    transition: width 1s ease;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, 
+                              rgba(255,255,255,0) 0%, 
+                              rgba(255,255,255,0.2) 50%, 
+                              rgba(255,255,255,0) 100%);
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Terminal styling */
+.terminal {
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    border: 1px solid #333;
+}
+
+.terminalHeader {
+    background-color: #323233;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #444;
+}
+
+.terminalControls {
+    display: flex;
+    gap: 8px;
+}
+
+.terminalControl {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.terminalTitle {
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: 'Consolas', monospace;
+    color: #ccc;
+}
+
+.terminalBody {
+    padding: 20px;
+    min-height: 300px;
+    font-family: 'Consolas', monospace;
+    font-size: 16px;
+    color: #ddd;
+    position: relative;
+}
+
+.terminalLine {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.terminalCursor {
+    display: inline-block;
+    width: 8px;
+    height: 18px;
+    background-color: #ff8c00;
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+}
+
+.terminalActions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #252526;
+    border-top: 1px solid #444;
+}
+
+.terminalButton {
+    background-color: #2c2c2c;
+    color: #ff8c00;
+    border: 1px solid #ff8c00;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Consolas', monospace;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.terminalButton:hover {
+    background-color: #ff8c00;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 140, 0, 0.4);
+}
+
+/* Media Query for Tablets */
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .imageContainer {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    
+    .imageWrapper {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .personalInfoCard {
+        flex: 1;
+    }
+
+    .terminalBody {
+        min-height: 200px;
+    }
+}
+
+/* Media Query for Mobile */
+@media (max-width: 700px) {
+    .imageContainer {
+        flex-direction: column;
+    }
+    
+    .personalInfoCard {
+        width: 100%;
+    }
+    
+    .skillsGrid {
+        grid-template-columns: 1fr;
+    }
+    
+    .buttonContainer {
+        flex-direction: column;
+    }
+    
+    .button {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .mainTitle {
+        font-size: 30px;
+    }
+    
+    .sectionTitle {
+        font-size: 24px;
+    }
+
+    .tabsContainer {
+        justify-content: flex-start;
+    }
+
+    .tab {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .htmlTag {
+        display: none;
+    }
+}
