@@ -33,7 +33,7 @@ export const getProjects = () => {
   {
     "id": 4,
     "name": "Weather App",
-    "image": "https://imgs.search.brave.com/rDo2nDQjeLWZuYvO8jEa8qKyog69P-9dECiMfflpmXo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2JlLzQz/Lzc4L2JlNDM3ODEy/MmNhZDZmNjcxN2Fk/OGIyMjc2ZTAyZTUw/LmpwZw",
+    "image": "https://t3.ftcdn.net/jpg/04/91/54/18/240_F_491541875_c0vIhFwHnRZvmRfJELvJxtSQbRDOwbGC.jpg",
     "description": "This is a responsive Weather Website created using HTML, CSS, and JavaScript. It fetches real-time weather data from the OpenWeatherMap API and displays it to the user in a clean and user-friendly interface.",
     "tags": ["Html", "css", "javascript","openweathermap"],
     "code": "https://github.com/LSUDOKO/Api-Weather-App",
@@ -44,7 +44,7 @@ export const getProjects = () => {
    {
     "id": 5,
     "name": "AI-Medical-ChatBot",
-    "image": "https://sdmntprwestus.oaiusercontent.com/files/00000000-0334-6230-932b-e3a5f50efa22/raw?se=2025-04-29T13%3A22%3A34Z&sp=r&sv=2024-08-04&sr=b&scid=7eabcdfd-f00f-5361-891c-7d8a8be870c2&skoid=51916beb-8d6a-49b8-8b29-ca48ed86557e&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-29T03%3A11%3A43Z&ske=2025-04-30T03%3A11%3A43Z&sks=b&skv=2024-08-04&sig=ncug7uRZU4SwqzuZrik%2Bu/Q9rHZH18OYfDkVQ/Ziquo%3D",
+    "image": "https://media.istockphoto.com/id/1401811766/vector/a-cute-round-robot-wearing-a-stethoscope-new-technologies-and-lifestyle.jpg?s=612x612&w=0&k=20&c=KcnoJHezDoLSrUMXHpAP4KBjxMd2XECUHG0irdLyhmE=",
     "description": "The AI Medical Chatbot is designed to:Answer medical queries based on a vast database of medical knowledge.Analyze symptoms and provide preliminary advice using AI-driven diagnosis.Support voice interactions, making it accessible to visually impaired users.Process images to identify common skin conditions and medical documents.Connect with healthcare professionals if advanced medical intervention is needed.",
     "tags": ["python", "docker", "liama-3-vision","openai-whisper","gradio","elevenlabs"],
     "code": "https://github.com/LSUDOKO/AI-Medical-ChatBot",
@@ -54,12 +54,12 @@ export const getProjects = () => {
   {
     "id": 6,
     "name": "AI Nutrition Planner",
-    "image": "https://img.freepik.com/premium-vector/upload-files-form-with-submit-button-dark-ui-design_116137-2354.jpg",
-    "description": "A sophisticated video streaming platform leveraging Go and HLS (HTTP Live Streaming) technology, featuring robust video processing capabilities and AWS S3 integration for efficient content delivery. The system implements parallel processing through Go routines and Redis-managed queues, enabling simultaneous video transcoding and optimized performance for multiple file handling. Built with scalability in mind, the platform utilizes FFmpeg for HLS format conversion, creating adaptive bitrate streaming solutions while efficiently managing system resources through a well-orchestrated worker pool system",
-    "tags": ["Golang", "typescript", "Redis", "AWS", "FFmpeg"],
-    "code": "https://github.com/LSUDOKO/FiileManager",
-    "demo": "https://x.com/ARPITSI03544750/status/1844335229500362784",
-    "demos":"https://x.com/ARPITSI03544750/status/1844335229500362784"
+    "image": "https://cdn.leonardo.ai/users/5cbfb1fa-fdbd-4a3e-8c0b-ff441a245c43/generations/70617917-e2b2-47f8-990f-c6885dc70390/Leonardo_Phoenix_10_depict_a_futuristic_hightech_illustration_3.jpg",
+    "description": "AI Nutrition Planner is a cutting-edge nutrition intelligence platform that empowers users to make informed dietary choices through advanced AI analysis, comprehensive food tracking, and personalized insights. By combining intuitive design with powerful AI capabilities, AI Nutrition Planner transforms the way you understand and interact with your nutrition journey.",
+    "tags": ["Next.js", "react.js", "gemini api", "mongoDB"],
+    "code": "https://github.com/LSUDOKO/AI_Nutrition_Planner.git",
+    "demo": "https://ai-nutrition-planner.vercel.app/",
+    "demos":"https://x.com/ARPITSI03544750/status/1917219905029525520"
   },
   /*{
     "id": 7,
