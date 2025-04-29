@@ -44,16 +44,16 @@ export const getProjects = () => {
    {
     "id": 5,
     "name": "AI-Medical-ChatBot",
-    "image": "https://sdmntprwestus.oaiusercontent.com/files/00000000-9b1c-6230-b0fe-d4666d841b89/raw?se=2025-04-24T08%3A46%3A15Z&sp=r&sv=2024-08-04&sr=b&scid=11af4935-bddd-509f-b30b-23fdd056f2c3&skoid=acefdf70-07fd-4bd5-a167-a4a9b137d163&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-24T05%3A44%3A41Z&ske=2025-04-25T05%3A44%3A41Z&sks=b&skv=2024-08-04&sig=%2BkLnMT6XYuw1vHn1rWcVNAAZsa7pRGaBALIpjkM1mz4%3D",
+    "image": "https://sdmntprwestus.oaiusercontent.com/files/00000000-0334-6230-932b-e3a5f50efa22/raw?se=2025-04-29T13%3A22%3A34Z&sp=r&sv=2024-08-04&sr=b&scid=7eabcdfd-f00f-5361-891c-7d8a8be870c2&skoid=51916beb-8d6a-49b8-8b29-ca48ed86557e&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-29T03%3A11%3A43Z&ske=2025-04-30T03%3A11%3A43Z&sks=b&skv=2024-08-04&sig=ncug7uRZU4SwqzuZrik%2Bu/Q9rHZH18OYfDkVQ/Ziquo%3D",
     "description": "The AI Medical Chatbot is designed to:Answer medical queries based on a vast database of medical knowledge.Analyze symptoms and provide preliminary advice using AI-driven diagnosis.Support voice interactions, making it accessible to visually impaired users.Process images to identify common skin conditions and medical documents.Connect with healthcare professionals if advanced medical intervention is needed.",
     "tags": ["python", "docker", "liama-3-vision","openai-whisper","gradio","elevenlabs"],
     "code": "https://github.com/LSUDOKO/AI-Medical-ChatBot",
     "demo": "https://youtu.be/47n8teyBTp8?si=Zl0N-v_5m1WUYvpN",
     "demos":"https://x.com/ARPITSI03544750/status/1915310526282039408"
   },
-  /*{
+  {
     "id": 6,
-    "name": "File Manager (Routines)",
+    "name": "AI Nutrition Planner",
     "image": "https://img.freepik.com/premium-vector/upload-files-form-with-submit-button-dark-ui-design_116137-2354.jpg",
     "description": "A sophisticated video streaming platform leveraging Go and HLS (HTTP Live Streaming) technology, featuring robust video processing capabilities and AWS S3 integration for efficient content delivery. The system implements parallel processing through Go routines and Redis-managed queues, enabling simultaneous video transcoding and optimized performance for multiple file handling. Built with scalability in mind, the platform utilizes FFmpeg for HLS format conversion, creating adaptive bitrate streaming solutions while efficiently managing system resources through a well-orchestrated worker pool system",
     "tags": ["Golang", "typescript", "Redis", "AWS", "FFmpeg"],
@@ -61,7 +61,7 @@ export const getProjects = () => {
     "demo": "https://x.com/ARPITSI03544750/status/1844335229500362784",
     "demos":"https://x.com/ARPITSI03544750/status/1844335229500362784"
   },
-  {
+  /*{
     "id": 7,
     "name": "PlantCare APP",
     "image": "https://mir-s3-cdn-cf.behance.net/projects/404/075b6d208373693.Y3JvcCwyNDA3LDE4ODIsMTI1LDk1.png",
