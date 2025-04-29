@@ -211,8 +211,14 @@
     color: #dedede;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    white-space: nowrap; /* Prevent text from wrapping */
+    z-index: 10; /* Ensure it appears above other elements */
+    text-align: center;
+    width: max-content; /* Ensure proper sizing */
+    max-width: 90%; /* Prevent overflow */
 }
 
 .statusDot {
@@ -596,6 +602,10 @@
     .imageWrapper {
         width: 150px;
         height: 150px;
+        margin-bottom: 25px; /* Add space for status indicator */
+        display: flex;
+        justify-content: center;
+        position: relative;
     }
     
     .personalInfoCard {
@@ -604,6 +614,11 @@
 
     .terminalBody {
         min-height: 200px;
+    }
+
+    .status {
+        bottom: -15px; /* Adjust position for tablet view */
+        font-size: 0.75rem; /* Slightly smaller font */
     }
 }
 
@@ -649,5 +664,47 @@
 
     .htmlTag {
         display: none;
+    }
+
+    .imageWrapper {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 35px auto; /* Increased bottom margin for status badge */
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .status {
+        bottom: -22px; /* Move further down on mobile */
+        padding: 5px 12px; /* Slightly larger padding for better touch target */
+        width: auto; /* Allow natural width */
+        background-color: #1F2429;
+        border: 1.5px solid #ff8c00; /* Slightly thicker border for visibility */
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4); /* Enhanced shadow for better visibility */
+        font-weight: 500; /* Slightly bolder text */
+        max-width: 160px; /* Control maximum width */
+    }
+    
+    .statusDot {
+        width: 9px; /* Slightly larger dot */
+        height: 9px; /* Slightly larger dot */
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 400px) {
+    .status {
+        bottom: -22px;
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%);
+        font-size: 0.75rem; /* Slightly larger font than before */
+        padding: 5px 12px;
+        width: max-content;
+        min-width: 130px; /* Ensure minimum width */
+    }
+    
+    .imageWrapper {
+        margin-bottom: 40px; /* Add more space for the status indicator */
     }
 }
