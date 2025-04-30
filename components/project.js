@@ -13,7 +13,7 @@ export const getProjects = () => {
   {
       "id":2,
       "name":"Fake News Detector",
-      "image":"https://imgs.search.brave.com/nu8_c5j_CWu3bC3qkEuS-aDt8VnYmzlFdOtaL7tUkm0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9m/YWtlLW5ld3MtY29u/Y2VwdF8yMy0yMTQ4/ODM2OTg2LmpwZz9z/ZW10PWFpc19oeWJy/aWQmdz03NDA",
+      "image":"https://cdn.qwenlm.ai/output/4615565b-9ea1-4ccb-90f2-3ae5d52636b4/t2i/cea1d956-2b41-45ca-bc48-890569d9cab5/a4f56b57-1f76-402e-93e5-3493fa93efe5.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiNDYxNTU2NWItOWVhMS00Y2NiLTkwZjItM2FlNWQ1MjYzNmI0IiwicmVzb3VyY2VfaWQiOiJhNGY1NmI1Ny0xZjc2LTQwMmUtOTNlNS0zNDkzZmE5M2VmZTUiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.a_PhQuoAbBeoeq937I0DurBD1jgJco-FKR7waJoP-Hk",
       "description":"This project aims to identify and classify news articles as real or fake using Natural Language Processing (NLP) and Machine Learning techniques. With the rise of misinformation online, this tool helps in promoting fact-based content and digital awareness",
       "tags":["python","pandas","numpy","Scikit-learn","NLP"],
       "code":"https://github.com/LSUDOKO/Fake-News-Detector",
@@ -33,7 +33,7 @@ export const getProjects = () => {
   {
     "id": 4,
     "name": "Weather App",
-    "image": "https://t3.ftcdn.net/jpg/04/91/54/18/240_F_491541875_c0vIhFwHnRZvmRfJELvJxtSQbRDOwbGC.jpg",
+    "image": "https://cdn.qwenlm.ai/output/4615565b-9ea1-4ccb-90f2-3ae5d52636b4/t2i/cea1d956-2b41-45ca-bc48-890569d9cab5/1b9a3589-b70f-435b-bce8-2682eed22b39.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiNDYxNTU2NWItOWVhMS00Y2NiLTkwZjItM2FlNWQ1MjYzNmI0IiwicmVzb3VyY2VfaWQiOiIxYjlhMzU4OS1iNzBmLTQzNWItYmNlOC0yNjgyZWVkMjJiMzkiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.ZPPk-ixnEsP_Celvtw9Dn2MamppvTzr7gH2D9qnmstk",
     "description": "This is a responsive Weather Website created using HTML, CSS, and JavaScript. It fetches real-time weather data from the OpenWeatherMap API and displays it to the user in a clean and user-friendly interface.",
     "tags": ["Html", "css", "javascript","openweathermap"],
     "code": "https://github.com/LSUDOKO/Api-Weather-App",
@@ -44,7 +44,7 @@ export const getProjects = () => {
    {
     "id": 5,
     "name": "AI-Medical-ChatBot",
-    "image": "https://media.istockphoto.com/id/1401811766/vector/a-cute-round-robot-wearing-a-stethoscope-new-technologies-and-lifestyle.jpg?s=612x612&w=0&k=20&c=KcnoJHezDoLSrUMXHpAP4KBjxMd2XECUHG0irdLyhmE=",
+    "image": "https://cdn.qwenlm.ai/output/4615565b-9ea1-4ccb-90f2-3ae5d52636b4/t2i/cea1d956-2b41-45ca-bc48-890569d9cab5/54ab0902-2e52-4245-a67e-b62d0067b8dd.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiNDYxNTU2NWItOWVhMS00Y2NiLTkwZjItM2FlNWQ1MjYzNmI0IiwicmVzb3VyY2VfaWQiOiI1NGFiMDkwMi0yZTUyLTQyNDUtYTY3ZS1iNjJkMDA2N2I4ZGQiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.GNVGZM0d_oHYJbKf-UAlEtIgh-KZHK-8ZV8hX0XT2Dk",
     "description": "The AI Medical Chatbot is designed to:Answer medical queries based on a vast database of medical knowledge.Analyze symptoms and provide preliminary advice using AI-driven diagnosis.Support voice interactions, making it accessible to visually impaired users.Process images to identify common skin conditions and medical documents.Connect with healthcare professionals if advanced medical intervention is needed.",
     "tags": ["python", "docker", "liama-3-vision","openai-whisper","gradio","elevenlabs"],
     "code": "https://github.com/LSUDOKO/AI-Medical-ChatBot",
@@ -54,7 +54,7 @@ export const getProjects = () => {
   {
     "id": 6,
     "name": "AI Nutrition Planner",
-    "image": "https://cdn.leonardo.ai/users/5cbfb1fa-fdbd-4a3e-8c0b-ff441a245c43/generations/70617917-e2b2-47f8-990f-c6885dc70390/Leonardo_Phoenix_10_depict_a_futuristic_hightech_illustration_3.jpg",
+    "image": "https://cdn.qwenlm.ai/output/4615565b-9ea1-4ccb-90f2-3ae5d52636b4/t2i/cea1d956-2b41-45ca-bc48-890569d9cab5/990c2c9e-082c-4060-b300-562c3a8c693a.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiNDYxNTU2NWItOWVhMS00Y2NiLTkwZjItM2FlNWQ1MjYzNmI0IiwicmVzb3VyY2VfaWQiOiI5OTBjMmM5ZS0wODJjLTQwNjAtYjMwMC01NjJjM2E4YzY5M2EiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.bdPffYhVKT1N0Z9kiSszVfhqEXocTVLtFui7vHluzek",
     "description": "AI Nutrition Planner is a cutting-edge nutrition intelligence platform that empowers users to make informed dietary choices through advanced AI analysis, comprehensive food tracking, and personalized insights. By combining intuitive design with powerful AI capabilities, AI Nutrition Planner transforms the way you understand and interact with your nutrition journey.",
     "tags": ["Next.js", "react.js", "gemini api", "mongoDB"],
     "code": "https://github.com/LSUDOKO/AI_Nutrition_Planner.git",
