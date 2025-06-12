@@ -11,7 +11,7 @@ const GithubPage = () => {
   const [repoCount, setRepoCount] = useState(0);
   const [contributionCount, setContributionCount] = useState(0);
   
-  const username = 'LSUDOKO'; // Set the GitHub username here
+  const username = 'areycruzer'; // Set the GitHub username here
 
   // Define the calendar theme - using blue color scheme
   const theme = {

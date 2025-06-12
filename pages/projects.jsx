@@ -264,7 +264,7 @@ const ProjectsPage = ({ projects }) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8, duration: 0.5 }}
       >
-        <p>Want to see more of my work? Check out my <a href="https://github.com/LSUDOKO" target="_blank" rel="noopener noreferrer">GitHub profile</a>.</p>
+        <p>Want to see more of my work? Check out my <a href="https://github.com/areycruzer" target="_blank" rel="noopener noreferrer">GitHub profile</a>.</p>
       </motion.div>
     </motion.div>
   );
