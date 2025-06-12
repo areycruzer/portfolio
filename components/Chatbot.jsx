@@ -8,7 +8,7 @@ const Chatbot = () => {
   const [messages, setMessages] = useState([
     { 
       from: 'bot', 
-      text: 'Hi! I\'m Arpit\'s portfolio assistant. How can I help you today?',
+      text: 'Hi! I\'m Swyam\'s portfolio assistant. How can I help you today?',
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     }
   ]);
@@ -112,7 +112,7 @@ const Chatbot = () => {
                 <Image src="/github_co.webp" alt="AI" width={24} height={24} />
               </div>
               <div className={styles.headerText}>
-                <div className={styles.headerTitle}>Arpit AI Assistant</div>
+                <div className={styles.headerTitle}>Swyam AI Assistant</div>
                 <div className={styles.headerStatus}>
                   {isTyping ? 'Typing...' : 'Online'}
                 </div>
@@ -175,7 +175,7 @@ const Chatbot = () => {
               className={styles.input}
               value={input}
               onChange={e => setInput(e.target.value)}
-              placeholder="Ask me about Arpit..."
+              placeholder="Ask me about Swyam..."
               onKeyDown={e => e.key === 'Enter' && sendMessage()}
               disabled={isTyping}
             />

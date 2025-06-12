@@ -19,24 +19,24 @@ const sidebarTopItems = [
   },
   {
     Icon: WhatsAppIcon,
-    path: 'https://wa.me/6230603202',
+    path: 'https://wa.me/8588077790',
   },
   {
     Icon: TwitterIcon,
-    path: 'https://x.com/ARPITSI03544750',
+    path: 'https://x.com/reyswyam',
   },
   {
     Icon: GithubIcon,
-    path: 'https://github.com/LSUDOKO',
+    path: 'https://github.com/areycruzer',
   },
   {
     Icon: LinkedInIcon,
-    path: 'https://www.linkedin.com/in/arpit-singh-1a857b2a9',
+    path: 'https://www.linkedin.com/in/areyswyam',
   },
   
   {
     Icon: MailIcon,
-    path: 'mailto:adoranto737@gmail.com',
+    path: 'mailto:swyam7@gmail.com',
   },
 ];
 

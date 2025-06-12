@@ -2,46 +2,46 @@ export const getProjects = () => {
     return [
 {
     "id": 1,
-    "name": "Route Optimi",
-    "image": "https://i.imgur.com/ljt05yL.jpeg",
-    "description": " An AI-powered logistics optimization tool that determines the most efficient cross-border shipping routes using multiple transport modes (air, sea, land, or hybrid combinations). It optimizes key constraints like cost, transit time, regulatory feasibility, and carbon footprint.",
-    "tags": ["Next.js", "Python", "Prisma ","Leaflet.js"," Google Gemini"],
-    "code": "https://github.com/Aaditya1273/GlobalRoute-Navigator.git",
-    "demo": "https://global-route-navigator.vercel.app/",
-    "demos":"https://x.com/ARPITSI03544750/status/1908742487637733377"
+    "name": "SWYF - See What You Fit",
+    "image": "https://i.ibb.co/mCv8X8DD/swyf.jpg",
+    "description": " Developed an AI-powered virtual try-on platform integrating color analysis and a reward system to enhance online shopping experiences and reduce returns.",
+    "tags": ["React.js", "Tailwind CSS", "Firebase", "AI/ML", "Blockchain", "AR/VR", "Google Gemini"],
+    "code": "https://github.com/areycruzer/SWYF",
+    "demo": "https://swyf.onrender.com/",
+    "demos":"https://www.youtube.com/watch?v=a3LWEI0RwUg"
   },
   {
       "id":2,
-      "name":"Fake News Detector",
-      "image":"https://cdn.qwenlm.ai/output/4615565b-9ea1-4ccb-90f2-3ae5d52636b4/t2i/cea1d956-2b41-45ca-bc48-890569d9cab5/a4f56b57-1f76-402e-93e5-3493fa93efe5.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiNDYxNTU2NWItOWVhMS00Y2NiLTkwZjItM2FlNWQ1MjYzNmI0IiwicmVzb3VyY2VfaWQiOiJhNGY1NmI1Ny0xZjc2LTQwMmUtOTNlNS0zNDkzZmE5M2VmZTUiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.a_PhQuoAbBeoeq937I0DurBD1jgJco-FKR7waJoP-Hk",
-      "description":"This project aims to identify and classify news articles as real or fake using Natural Language Processing (NLP) and Machine Learning techniques. With the rise of misinformation online, this tool helps in promoting fact-based content and digital awareness",
-      "tags":["python","pandas","numpy","Scikit-learn","NLP"],
-      "code":"https://github.com/LSUDOKO/Fake-News-Detector",
-      "demo":"https://x.com/ARPITSI03544750/status/1915304711684604123",
-      "demos":"https://x.com/ARPITSI03544750/status/1915304711684604123"
+      "name":"Magic Clipboard",
+      "image":"https://i.ibb.co/GfX9q2mj/image.png",
+      "description":"Developed Magic Clipboard, a real-time clipboard-sharing app with animated UI, secure sharing, and Firebase storage.(Use pass- mkc)",
+      "tags": ["Firebase", "WebSockets", "JavaScript", "Clipboard API", "Real-time Sync", "Cross-Platform"],
+      "code":"https://github.com/areycruzer/online-clip",
+      "demo":"https://huu-tau.vercel.app",
+      "demos":"https://huu-tau.vercel.app"
   },
   {
     "id": 3,
-    "name": "SpeakPro AI",
-    "image": "https://i.imgur.com/Jh3fmnA.png",
-    "description": "SpeakPro AI is your personal AI communication coach, designed to boost your conversational skills with real-time analysis, actionable feedback, and immersive practice environments. Whether you're preparing for an interview, improving social skills, or mastering professional conversations, SpeakPro AI is here to help!",
-    "tags": ["react.js", "node.js", "python","streamlit","Groq LLM","Eleven Labs"],
-    "demo": "https://x.com/ARPITSI03544750/status/1906242273207038378",
-    "code": "https://github.com/ZINKUNO/electrothon-ch",
-    "demos":"https://x.com/ARPITSI03544750/status/1906242273207038378"
+    "name": "Aid - Emails",
+    "image": "https://i.ibb.co/ksZdv71H/image.png",
+    "description": "Aid - Email z is an AI-powered email management system that enhances productivity with smart automation, security, and efficient organization.",
+    "tags": ["React.js", "AI/ML", "Firebase", "Natural Language Processing", "Email Automation", "Smart Categorization", "Google Gemini"],
+    "demo": "https://aidmail.vercel.app/",
+    "code": "https://github.com/areycruzer/aid-mail",
+    "demos":"https://aidmail.vercel.app/"
   },
   {
     "id": 4,
-    "name": "Weather App",
-    "image": "https://cdn.qwenlm.ai/output/4615565b-9ea1-4ccb-90f2-3ae5d52636b4/t2i/cea1d956-2b41-45ca-bc48-890569d9cab5/1b9a3589-b70f-435b-bce8-2682eed22b39.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiNDYxNTU2NWItOWVhMS00Y2NiLTkwZjItM2FlNWQ1MjYzNmI0IiwicmVzb3VyY2VfaWQiOiIxYjlhMzU4OS1iNzBmLTQzNWItYmNlOC0yNjgyZWVkMjJiMzkiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.ZPPk-ixnEsP_Celvtw9Dn2MamppvTzr7gH2D9qnmstk",
-    "description": "This is a responsive Weather Website created using HTML, CSS, and JavaScript. It fetches real-time weather data from the OpenWeatherMap API and displays it to the user in a clean and user-friendly interface.",
-    "tags": ["Html", "css", "javascript","openweathermap"],
-    "code": "https://github.com/LSUDOKO/Api-Weather-App",
-    "demo": "api-weather-app-ebon.vercel.app",
-    "demos":"https://x.com/ARPITSI03544750/status/1915120231946584575"
+    "name": "Event counter - Backend Project",
+    "image": "https://i.ibb.co/gbcBM1WR/image.png",
+    "description": "Event counter project providing unified event counting, Established a password protected online event counter.",
+    "tags": ["JavaScript", "Firebase", "Real-time Database", "User Authentication", "Event Tracking", "Responsive Design"],
+    "code": "https://github.com/areycruzer/sorry-counter",
+    "demo": "https://sorry-sable-eta.vercel.app/",
+    "demos":"https://sorry-sable-eta.vercel.app/"
 
   },
-   {
+  /* {
     "id": 5,
     "name": "AI-Medical-ChatBot",
     "image": "https://cdn.qwenlm.ai/output/4615565b-9ea1-4ccb-90f2-3ae5d52636b4/t2i/cea1d956-2b41-45ca-bc48-890569d9cab5/54ab0902-2e52-4245-a67e-b62d0067b8dd.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiNDYxNTU2NWItOWVhMS00Y2NiLTkwZjItM2FlNWQ1MjYzNmI0IiwicmVzb3VyY2VfaWQiOiI1NGFiMDkwMi0yZTUyLTQyNDUtYTY3ZS1iNjJkMDA2N2I4ZGQiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.GNVGZM0d_oHYJbKf-UAlEtIgh-KZHK-8ZV8hX0XT2Dk",
@@ -61,7 +61,7 @@ export const getProjects = () => {
     "demo": "https://ai-nutrition-planner.vercel.app/",
     "demos":"https://x.com/ARPITSI03544750/status/1917219905029525520"
   },
-  /*{
+  {
     "id": 7,
     "name": "PlantCare APP",
     "image": "https://mir-s3-cdn-cf.behance.net/projects/404/075b6d208373693.Y3JvcCwyNDA3LDE4ODIsMTI1LDk1.png",

@@ -10,7 +10,7 @@ export default function AboutMe() {
   const [visibleSkills, setVisibleSkills] = useState([]);
   
   // Text to be typed in the terminal
-  const terminalText = `> Hello, I'm Arpit Singh
+  const terminalText = `> Hello, I'm Swyam Sharma
 > A passionate developer focused on creating innovative solutions
 > Let me tell you about my journey...`;
   
@@ -98,7 +98,7 @@ export default function AboutMe() {
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-person`}></i>
                     <span><strong className={styles.strong}>Name: </strong>
-                      <span className={styles.value}>Arpit Singh</span></span>
+                      <span className={styles.value}>Swyam Sharma</span></span>
                   </li>
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-flag`}></i>
@@ -108,12 +108,12 @@ export default function AboutMe() {
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-building`}></i>
                     <span><strong className={styles.strong}>College: </strong>
-                      <span className={styles.value}>National Institute of Technology Hamirpur</span></span>
+                      <span className={styles.value}>Vivekananda Institute of Professional Studies</span></span>
                   </li>
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-calendar`}></i>
                     <span><strong className={styles.strong}>Graduation: </strong>
-                      <span className={styles.value}>2028</span></span>
+                      <span className={styles.value}>2027</span></span>
                   </li>
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-briefcase`}></i>
@@ -126,7 +126,7 @@ export default function AboutMe() {
             
             <div className={styles.bioContainer}>
               <div className={styles.bioCard}>
-                <h3 className={styles.cardTitle}>Mobile App & Web Developer</h3>
+                <h3 className={styles.cardTitle}>Software Developer | Cybersecurity | AI for Good</h3>
                 <div className={styles.paragraph}>
                   Innovative and deadline-driven Developer researching and developing solutions that meet client satisfaction using the easiest, yet effective approach possible. I make the whole concept of developing, a whole vibe - A Normal Life is Boring.
                 </div>
@@ -148,11 +148,11 @@ export default function AboutMe() {
                 </div>
                 
                 <div className={styles.buttonContainer}>
-                  <a href="/arpit.pdf" className={styles.button}>
+                  <a href="/swyam.pdf" className={styles.button}>
                     <span className={styles.buttonIcon}>📄</span>
                     Resume
                   </a>
-                  <a href="mailto:adoranto737@gmail.com" className={styles.button}>
+                  <a href="mailto:swyam7@gmail.com" className={styles.button}>
                     <span className={styles.buttonIcon}>✉️</span>
                     Contact Me
                   </a>
@@ -261,7 +261,7 @@ export default function AboutMe() {
                 <span className={styles.terminalControl} style={{ backgroundColor: '#ffbd2e' }}></span>
                 <span className={styles.terminalControl} style={{ backgroundColor: '#27c93f' }}></span>
               </div>
-              <div className={styles.terminalTitle}>arpit-portfolio ~ about-me</div>
+              <div className={styles.terminalTitle}>swyam-portfolio ~ about-me</div>
             </div>
             <div className={styles.terminalBody}>
               {typedText.split('\n').map((line, i) => (

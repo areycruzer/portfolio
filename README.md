@@ -2,7 +2,7 @@
 This is my personal portfolio website built with Next.js and styled to look like VS Code. It showcases my projects, skills, and experience in a unique and interactive way.
 ## 🚀 Live Demo
 
-Check out the live site: [Link](https://portfolio-nu-jade-59.vercel.app/)
+Check out the live site: [Link](https://cruzerfolio.vercel.app/)
 
 ## ✨ Features
 
@@ -21,7 +21,7 @@ A Normal Life is Boring.
 ### Mobile & Web Developer
 
 #### Personal Details
-- **Name:** Arpit singh
+- **Name:** Swyam Sharma
 - **Nationality:** India
 - **College Degree:** B Tech in Computer science
 

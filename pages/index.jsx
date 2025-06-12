@@ -14,8 +14,8 @@ export default function HomePage() {
   const handleDownloadClick = (event) => {
     event.preventDefault(); // Prevent default routing behavior
     const link = document.createElement('a');
-    link.href = '/arpit.pdf'; // The path to your resume in the public folder
-    link.download = 'arpit.pdf'; // The name of the downloaded file
+    link.href = '/swyam.pdf'; // The path to your resume in the public folder
+    link.download = 'swyam.pdf'; // The name of the downloaded file
     link.click();
   };
   return (
@@ -27,9 +27,9 @@ export default function HomePage() {
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Arpit Singh</h1>
-            <h6 className={styles.bio}>Fullstack Developer with
-              <span className={styles.react}> Next.</span></h6>
+            <h1 className={styles.name}>Swyam Sharma</h1>
+            <h6 className={styles.bio}>Code. Create. Conquer.
+              <span className={styles.react}> Repeat.</span></h6>
 
             {/* Skill Icons Section */}
             <div className={styling.skillsContainer}>

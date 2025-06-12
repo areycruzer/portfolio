@@ -25,12 +25,7 @@ const explorerItems = [
     name: 'projects.js',
     path: '/projects',
     icon: 'js_icon.svg',
-  },
-  {
-    name: 'github.md',
-    path: '/github',
-    icon: 'markdown_icon.svg',
-  },
+  }
 ];
 
 const Explorer = () => {
@@ -39,8 +34,8 @@ const Explorer = () => {
   const handleDownloadClick = (event) => {
     event.preventDefault(); // Prevent default routing behavior
     const link = document.createElement('a');
-    link.href = '/arpit.pdf'; // The path to your resume in the public folder
-    link.download = 'arpit.pdf'; // The name of the downloaded file
+    link.href = '/swyam.pdf'; // The path to your resume in the public folder
+    link.download = 'swyam.pdf'; // The name of the downloaded file
     link.click();
   };
 
