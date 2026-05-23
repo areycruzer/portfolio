@@ -1,0 +1,3 @@
+## 2024-05-15 - [Icon-Only Navigation Links Accessibility]
+**Learning:** Structural components like the `Sidebar` and `Bottombar` often rely on icon-only links for a compact design. These links, while visually clean, can be inaccessible if they lack `aria-label` attributes and tooltip `title` attributes. Adding these attributes significantly improves screen reader accessibility and provides helpful context for all users upon hover.
+**Action:** When implementing icon-only navigation elements or interactive buttons, always provide `aria-label`s and `title` attributes to ensure they are accessible and intuitive.

@@ -16,26 +16,28 @@ const Bottombar = () => {
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
+          aria-label="GitHub Repository"
+          title="GitHub Repository"
         >
           <SourceControlIcon className={styles.icon} />
           <p>main</p>
         </a>
-        <div className={styles.section}>
+        <div className={styles.section} aria-label="Problems: 0 Errors, 0 Warnings" title="Problems" role="group">
           <ErrorIcon className={styles.icon} />
           <WarningIcon className={styles.icon} />
         </div>
       </div>
       <div className={styles.container}>
-        <div className={styles.section}>
+        <div className={styles.section} aria-label="Powered by Next.js" title="Framework" role="group">
           <NextjsIcon className={styles.icon} />
           <p>Powered by Next.js</p>
         </div>
-        <div className={styles.section}>
+        <div className={styles.section} aria-label="Prettier" title="Code Formatter" role="group">
           <CheckIcon className={styles.icon} />
           <p>Prettier</p>
         </div>
         <div className={styles.section}>
-          <Link href="/"> {/* Example of internal link */}
+          <Link href="/" aria-label="Notifications" title="Notifications">
             <BellIcon />
           </Link>
         </div>
