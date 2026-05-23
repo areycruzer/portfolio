@@ -21,7 +21,12 @@ const Bottombar = () => {
           <SourceControlIcon className={styles.icon} />
           <p>main</p>
         </a>
-        <div className={styles.section} aria-label="Problems: 0 Errors, 0 Warnings" title="Problems" role="group">
+        <div
+          className={styles.section}
+          aria-label="Problems: 0 Errors, 0 Warnings"
+          title="Problems"
+          role="group"
+        >
           <ErrorIcon className={styles.icon} />
           <WarningIcon className={styles.icon} />
         </div>
