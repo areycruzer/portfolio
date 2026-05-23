@@ -16,7 +16,6 @@ const Bottombar = () => {
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
-          aria-label="GitHub Repository"
           title="GitHub Repository"
         >
           <SourceControlIcon className={styles.icon} />
