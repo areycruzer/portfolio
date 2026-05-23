@@ -32,7 +32,12 @@ const Bottombar = () => {
         </div>
       </div>
       <div className={styles.container}>
-        <div className={styles.section} aria-label="Powered by Next.js" title="Framework" role="group">
+        <div
+          className={styles.section}
+          aria-label="Powered by Next.js"
+          title="Framework"
+          role="group"
+        >
           <NextjsIcon className={styles.icon} />
           <p>Powered by Next.js</p>
         </div>
