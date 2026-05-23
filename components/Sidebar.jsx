@@ -67,7 +67,7 @@ const Sidebar = () => {
       <div className={styles.sidebarTop}>
         {sidebarTopItems.map(({ Icon, path, label }, index) => (
           <div key={index} className={styles.iconContainer}>
-            <Link href={path} passHref aria-label={label} title={label}>
+            <Link href={path} aria-label={label} title={label}>
               <div
                 className={
                   router.pathname === path ? styles.active : undefined
