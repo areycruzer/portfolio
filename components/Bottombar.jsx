@@ -52,7 +52,7 @@ const Bottombar = () => {
         </div>
         <div className={styles.section}>
           <Link href="/" aria-label="Notifications" title="Notifications">
-            <BellIcon />
+            <BellIcon aria-hidden="true" focusable={false} />
           </Link>
         </div>
       </div>
