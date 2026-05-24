@@ -41,7 +41,12 @@ const Bottombar = () => {
           <NextjsIcon className={styles.icon} />
           <p>Powered by Next.js</p>
         </div>
-        <div className={styles.section} aria-label="Prettier" title="Code Formatter" role="group">
+        <div
+          className={styles.section}
+          aria-label="Prettier"
+          title="Code Formatter"
+          role="group"
+        >
           <CheckIcon className={styles.icon} />
           <p>Prettier</p>
         </div>
